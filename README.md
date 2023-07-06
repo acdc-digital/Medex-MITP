@@ -1,5 +1,5 @@
 # Medex-Public-MITP
-Welcome to the Medex public repo, the Public version's for Open-Source Medex updates, changes, and contributions. 
+Welcome to the Medex public repo, the Public version's for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. 
 
 July 7, 2023:
 Today was the first day of opening the Public repo. I'll continue to update the files as I upload them and reformat the files to create a more unified experience for contributors, or Users who simply want to play with the program in their termainal. 
