@@ -1,19 +1,25 @@
-openai
-requests
-pandas
-langchain
-python-dotenv
-faiss-cpu
-poppler-utils
-layoutparser[layoutmodels,tesseract]
-unstructured
-pymysql
-pdfReader
-langchain
+beautifulsoup4
 clickhouse-connect
-tiktoken
-python-dotenv
+dataclasses-json
+faiss-cpu
+fsspec
 lark
+langchain
+layoutparser[layoutmodels,tesseract]
+nest-asyncio
+numpy
+openai
+pandas
+pdfReader
+pymysql
+python-dotenv
+requests
+sqlalchemy
+tenacity
+tiktoken
+typing-extensions
+typing-inspect
+urllib3
 #brew libxml2
 #brew libxslt
 #brew poppler-qt5
