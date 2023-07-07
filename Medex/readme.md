@@ -1,3 +1,5 @@
+<h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
+
 <h1> Latest Update: 7/7/2023 </h1>
 
 To get started, simply clone this repo-and enter your key values in the playground. You should immediately (upon completion of our initial setup here) you should be able to enter your configurations into the playground-codeblocks as needed, and then being q/a over your data. Given this is day #2 of our project, the code is still being updated. Keep in mind, this means we'll begin seeing health/medical specific components beginning to be integrated in the coming weeks. As time progresses, the less effective generic data/documents will be, and the more effective health/medical specific data/documents will be.
@@ -21,7 +23,6 @@ Generally, I believe the implementation of the Llama-Index will help to substant
 []: # The .env requirements and setup instructions for the virtual environment and .env keys, you can check the .env file in the <Medex> directory, and/or the my-venv instructions within the jupyter-playground. I'll piece together a more formiddable instruction set, with new files that are easier to navigate in the near future. 
 []: # 
 
-<h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
 
 <h2>Ingest.py</h2>
 
