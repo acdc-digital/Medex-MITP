@@ -1,6 +1,9 @@
 # Medex-Public-MITP
 Welcome to the Medex public repo, the Public version's for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. 
 
+![Example Image](Medex-Comms_Flow.png)
+
+
 <h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
 
 <h3> Latest Update: 7/7/2023 </h3>
