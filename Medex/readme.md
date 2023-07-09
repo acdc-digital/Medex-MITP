@@ -35,6 +35,7 @@ Generally, I believe the implementation of the Llama-Index will help to substant
 Last (first) update: 6/7/23; These documents are being continuously updated. Today (6/7/23) was the first day of the project release. While I've been working dilligently in the background, it's always been a goal of mine to cerate a meaningful public repository. I'm excited to share this with you. I hope you enjoy it. 
 
 I'm having some difficulty with the privacy concerns related to the sample_patient_files that I've been recieving. As of today (7,7,2023) - I'm planning to blackout the privacy details of these documents so that the samples can be used by everyone. However, given the length, 2,000+ pages per document, it may take some time to ensure this is completed efficiently and according to our standards for the privacy of our Users, even in prototyping stages. In the meantime, I will not be pushing the sample-patient-files until they're ready/ likely next week. 
+<h6>End Update.</h6>
 
 []: # Path: readme.md
 []: # See knowledge-base snippets from Medex/Course-Work/Helpful_Links and Cool_Repos, followed by relevant coursework (free and paid), model catalogue and downloadable products. Sample patient files will be uploaded soon. 
