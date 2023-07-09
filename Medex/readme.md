@@ -2,6 +2,24 @@
 
 <h1> Latest Update: 7/7/2023 </h1>
 
+July 9, 2023: We had to take a step back today in order to continue some testing methods. This reduction in our code-base included a llama-index wrapper that would allow us to use a retriever from the same library. We will conitnue to explore this method. However, I wanted to ensure our participants had a working ingest.py file in the meantime. Now, we can ingest the source_docs folder, and the documents will be converted to .json files per use of the unstructured.io document-api library.
+
+Today, we're going to expand the ingestion pipeline by including multiple formats other than the .pdf format we've been using for testing to date.
+
+Update: Noon; July 9, 2023
+
+Today we're thinking about the strategic action for what we're trying to retrieve. Our key elements for retrieval include, but are not limited to;
+
+a. quality of retrieval response; the chat-assistant needs to be able to retrieve the query, translate to user-knowledge-level, assess hypothetical/similar embeddings, evaluate multiple retrieval responses, and respond to the User with a coherent reply and appropriate meta-data sources. a.a. the appropriate benchmarks and evaluation methods will need to be in place for this. this means collecting responses from other LLM's for comparison, and determining evaluation criteria for quantifying responses (such as to make a leaderboard in which our model should always strive to be at the top spot).
+
+b. along with retrieval, the user query translation is important. I believe we only need to make some simple additions to ensure this working even slightly well, and we'll work on the robust-ness of the application following successful and passing benchmarks and tests.
+
+c. I think we're using a retrieve function in Langchain. But I've also found some interesting methods in Llama-Index. I think we need to begin creating a chart for evaluating the methods available, and determining exactly how we want to achieve the main purpose of forward/backward layman-medical/medical-layman. We can begin by creating a list of possible retrievers that have either partial functionality we can add to, or whole components that will need to be embedded within our source code.
+
+d. I am concerned about hallucinations given the medical environment. So, just as important as the techniques being used to transform the user query, we also need to be cognitive of where the retrieval information is coming from and what the context of that document/ file is. We know agents/ (openai) functions can reduce the likelihood of hallucinations- so that is the direction of our continued research in this space.
+
+Update: July 7, 2023 
+
 To get started, simply clone this repo-and enter your key values in the playground. You should immediately (upon completion of our initial setup here) you should be able to enter your configurations into the playground-codeblocks as needed, and then being q/a over your data. Given this is day #2 of our project, the code is still being updated. Keep in mind, this means we'll begin seeing health/medical specific components beginning to be integrated in the coming weeks. As time progresses, the less effective generic data/documents will be, and the more effective health/medical specific data/documents will be.
 
 Last night, and after evaluation and further consideration I've decided to implement the Llama-Index. The considerations for approval are the following:
