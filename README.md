@@ -11,7 +11,7 @@ Welcome to the Medex public repo, the Public-Version for Open-Source Medex updat
 
 <h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
 
-<h1> Latest Update: 7/7/2023 </h1>
+<h1> Latest Update: 9/7/2023 </h1>
 
 July 9, 2023: We had to take a step back today in order to continue some testing methods. This reduction in our code-base included a llama-index wrapper that would allow us to use a retriever from the same library. We will conitnue to explore this method. However, I wanted to ensure our participants had a working ingest.py file in the meantime. Now, we can ingest the source_docs folder, and the documents will be converted to .json files per use of the unstructured.io document-api library.
 
