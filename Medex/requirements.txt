@@ -6,6 +6,7 @@ fsspec
 lark
 langchain
 layoutparser[layoutmodels,tesseract]
+llama-index
 nest-asyncio
 numpy
 openai

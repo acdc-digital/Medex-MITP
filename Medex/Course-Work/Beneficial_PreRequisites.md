@@ -10,8 +10,9 @@
 <h2> Project specific libraries </h2>
 1. [Unstructured] (https://unstructured-io.github.io/unstructured/bricks.html)
 2. [Langchain-Python] (https://python.langchain.com/docs/get_started/introduction.html)
-3. [MyScale API Key](https://beta.myscale.com/docs/developer-quickstart/your-api-keys) 
-4. [OpenAI API Key](https://beta.openai.com/docs/developer-quickstart/your-api-keys)
+3. [MyScale](https://beta.myscale.com/docs/developer-quickstart/your-api-keys) 
+4. [OpenAI](https://beta.openai.com/docs/developer-quickstart/your-api-keys)
+5. [llama-index] 
 
 <h2> Informal Project Courses </h2>
 1. [Langchain/ Deeplearning] (free) QA over docs with Langchain: (https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)

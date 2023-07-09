@@ -7,7 +7,7 @@ from langchain.document_loaders import UnstructuredAPIFileLoader
 from langchain.vectorstores import MyScale, MyScaleSettings
 
 # Set API keys as environment variables for security
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 os.environ['MYSCALE_API_KEY'] = "6B71NumcMB7QXcguTapGBjCEWqM27p"
 
 # Configure MyScale settings
