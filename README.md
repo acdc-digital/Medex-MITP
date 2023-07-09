@@ -4,7 +4,7 @@ We are just getting started uploading and creating the information to make this 
 
 Welcome to the Medex public repo, the Public-Version for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. Application overview (not complete- the below is a placeholder for now until the finished diagram is done): 
 
-![Example Image](Medex-Comms Flow.png)
+![Image](Medex-Comms_Flow2.png)
 
 
 <h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
