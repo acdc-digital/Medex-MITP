@@ -47,6 +47,12 @@ Embedding Generation: The OpenAIEmbeddings is used to generate embeddings for ea
 Indexing: The MyScale index is used to store and retrieve the embeddings. This allows the application to quickly find similar documents or chunks based on their embeddings.
 Metadata Tracking: The Unstructured library tracks a variety of metadata about the elements extracted from documents. This metadata can be used to filter document elements based on criteria of interest, such as page number or source file.</h4>
 
+July 9, 2023:
+We had to take a step back today in order to continue some testing methods. This reduction in our code-base included a llama-index wrapper that would allow us to use a retriever from the same library. We will conitnue to explore this method. However, I wanted to ensure our participants had a working ingest.py file in the meantime. Now, we can ingest the source_docs folder, and the documents will be converted to .json files per use of the unstructured.io document-api library. 
+
+Today, we're going to expand the ingestion pipeline by including multiple formats other than the .pdf format we've been using for testing to date. 
+
+
 July 7, 2023:
 Today was the first day of opening the Public repo. I'll continue to update the files as I upload them and reformat the files to create a more unified experience for contributors, or Users who simply want to play with the program in their termainal. 
 

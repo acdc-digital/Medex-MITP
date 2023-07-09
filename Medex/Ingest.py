@@ -1,31 +1,21 @@
 import os
 import json
 from tqdm import tqdm
-
-# Import necessary modules from langchain and llama_index
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.text_splitter import TokenTextSplitter
 from langchain.document_loaders import UnstructuredAPIFileLoader
 from langchain.vectorstores import MyScale, MyScaleSettings
-from llama_index.indices.service_context import ServiceContext
-from llama_index.indices.text_index import TextIndex
-from llama_index.vector_stores.myscale import MyScaleVectorStore
 
 # Set API keys as environment variables for security
-os.environ['OPENAI_API_KEY'] = "sk-hXivM******************************1oebUTTQ"
-os.environ['MYSCALE_API_KEY'] = "6B7*******************************27p"
+os.environ['OPENAI_API_KEY'] = "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"
+os.environ['MYSCALE_API_KEY'] = "6B71NumcMB7QXcguTapGBjCEWqM27p"
 
 # Configure MyScale settings
-# MyScale is a vector store used for storing and retrieving embeddings
-config = MyScaleSettings(host="**********12345.us-east-1.aws.myscale.com", port=444, username="******acdc.digital", password="passwd_NA*****************GNt")
+config = MyScaleSettings(host='msc-3f5d0ca4.us-east-1.aws.myscale.com', port=443, username='smatty662', password='passwd_CAdIn9GSXH7GNt')
 index = MyScale(OpenAIEmbeddings(), config)
 
 # Initialize LlamaIndex components
 embed_model = OpenAIEmbeddings()
-service_context = ServiceContext(embed_model=embed_model)
-vector_store = MyScaleVectorStore(myscale_client=index, service_context=service_context)
-text_index = TextIndex(vector_store=vector_store, service_context=service_context)
 
 def process_files(directory):
     # Initialize an empty list to hold file loaders
@@ -51,7 +41,7 @@ def process_files(directory):
             file_loaders.append(file_loader)
 
     # Create a text splitter
-    text_splitter = TokenTextSplitter(chunk_size=5500, chunk_overlap=1000)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=5500, chunk_overlap=1000)
 
     # Wrap your file_loaders with tqdm for progress bar
     # Loop through each file loader and process the file
@@ -74,14 +64,13 @@ def process_files(directory):
             doc_embeddings[i] = embed_model.embed_documents([d.page_content])
 
             # Add the chunk to the LlamaIndex
-            text_index.add_documents([d])
+            vector_store.add_documents([d])
 
         # Write the embeddings to a JSON file
         with open(f"{loader.file_path}.json", "w") as f:
             f.write(json.dumps(doc_embeddings, default=str))
 
 # Directory containing PDF files to process
-directory = "/***********/acdc-digital/Medex_Drafts/medex_7.1.23/medexical/Source_Documents"
-
+directory = "/Users/matthewsimon/Documents/GitHub/Medex-Public-MITP/Medex-Public-MITP/Medex/Source_Documents"
 # Call the process_files function to process all PDF files in the directory
 process_files(directory)

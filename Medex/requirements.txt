@@ -19,6 +19,7 @@ tenacity
 tiktoken
 typing-extensions
 typing-inspect
+unstructured
 urllib3
 #brew libxml2
 #brew libxslt
