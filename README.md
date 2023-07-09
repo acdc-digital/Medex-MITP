@@ -2,7 +2,7 @@
 
 We are just getting started uploading and creating the information to make this a coherent space. My best estimate is that we'll be much easier to comprehend by the end of the month (July, 2023). In the meantime, feel free to explore and check-out what we have to offer. Alongside a great initiative for our Medex application, within the 'medex' folder you'll find our curated collection of resources that guide our research and understanding for this project. This includes medex-specific research papers, course-offerings, reading resources, helpful links, and more that will be beneficial to anyone working on q/a applications. Alongside the development of the project, we strive to generate an open platform for not only builders, but researchers, inventors, creatives, and more who can add to the repository in a posititive way. You are a contributor simply by uploading a document that's relevant to the project. 
 
-Welcome to the Medex public repo, the Public version's for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. 
+Welcome to the Medex public repo, the Public-Version for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. 
 
 ![Example Image](Medex-Comms_Flow.png)
 
