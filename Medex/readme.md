@@ -17,6 +17,7 @@ b. along with retrieval, the user query translation is important. I believe we o
 c. I think we're using a retrieve function in Langchain. But I've also found some interesting methods in Llama-Index. I think we need to begin creating a chart for evaluating the methods available, and determining exactly how we want to achieve the main purpose of forward/backward layman-medical/medical-layman. We can begin by creating a list of possible retrievers that have either partial functionality we can add to, or whole components that will need to be embedded within our source code.
 
 d. I am concerned about hallucinations given the medical environment. So, just as important as the techniques being used to transform the user query, we also need to be cognitive of where the retrieval information is coming from and what the context of that document/ file is. We know agents/ (openai) functions can reduce the likelihood of hallucinations- so that is the direction of our continued research in this space.
+<h6>End Update.</h6>
 
 Update: July 7, 2023 
 
@@ -31,20 +32,20 @@ d. improved ingestion function such as Transformer-Embedding Accleration, which 
 Generally, I believe the implementation of the Llama-Index will help to substantially accelerate our progress, while being able to provide moderate improvements to our existing models in complex areas of forward/backward document processing. 
 <h6>End Update.</h6>
 
+Last (first) update: 6/7/23; These documents are being continuously updated. Today (6/7/23) was the first day of the project release. While I've been working dilligently in the background, it's always been a goal of mine to cerate a meaningful public repository. I'm excited to share this with you. I hope you enjoy it. 
 
-* Last (first) update: 6/7/23; These documents are being continuously updated. Today (6/7/23) was the first day of the project release. While I've been working dilligently in the background, it's always been a goal of mine to cerate a meaningful public repository. I'm excited to share this with you. I hope you enjoy it. 
-
-** I'm having some difficulty with the privacy concerns related to the sample_patient_files that I've been recieving. As of today (7,7,2023) - I'm planning to blackout the privacy details of these documents so that the samples can be used by everyone. However, given the length, 2,000+ pages per document, it may take some time to ensure this is completed efficiently and according to our standards for the privacy of our Users, even in prototyping stages. In the meantime, I will not be pushing the sample-patient-files until they're ready/ likely next week. 
+I'm having some difficulty with the privacy concerns related to the sample_patient_files that I've been recieving. As of today (7,7,2023) - I'm planning to blackout the privacy details of these documents so that the samples can be used by everyone. However, given the length, 2,000+ pages per document, it may take some time to ensure this is completed efficiently and according to our standards for the privacy of our Users, even in prototyping stages. In the meantime, I will not be pushing the sample-patient-files until they're ready/ likely next week. 
 
 []: # Path: readme.md
 []: # See knowledge-base snippets from Medex/Course-Work/Helpful_Links and Cool_Repos, followed by relevant coursework (free and paid), model catalogue and downloadable products. Sample patient files will be uploaded soon. 
 []: # The .env requirements and setup instructions for the virtual environment and .env keys, you can check the .env file in the <Medex> directory, and/or the my-venv instructions within the jupyter-playground. I'll piece together a more formiddable instruction set, with new files that are easier to navigate in the near future. 
 []: # 
 
+<h1>Project Document/Script Descriptions</h1>
 
-<h2>Ingest.py</h2>
+- Ingest.py
 
-<h4>The process_files function in the ingest.py script is responsible for processing all the PDF files in a given directory. It does this by creating a UnstructuredAPIFileLoader for each PDF file, which is used to load the document and split it into chunks. These chunks are then embedded using the OpenAIEmbeddings and added to the MyScale index. The embeddings are also saved to a JSON file for each document.
+The process_files function in the ingest.py script is responsible for processing all the PDF files in a given directory. It does this by creating a UnstructuredAPIFileLoader for each PDF file, which is used to load the document and split it into chunks. These chunks are then embedded using the OpenAIEmbeddings and added to the MyScale index. The embeddings are also saved to a JSON file for each document.
 
 The improvements made to this function are primarily focused on the use of partitioning bricks from the Unstructured library. Partitioning bricks are used to extract structured content from raw unstructured documents, breaking them down into elements such as Title, NarrativeText, and ListItem. This allows the application to decide what content to keep for its specific use case.
 
@@ -54,4 +55,4 @@ Document Loading: The UnstructuredAPIFileLoader is used to load the document. Th
 Document Splitting: The CharacterTextSplitter is used to split the document into chunks. This is necessary because language models like GPT-3 have a maximum token limit, and large documents need to be split into smaller chunks to be processed.
 Embedding Generation: The OpenAIEmbeddings is used to generate embeddings for each chunk. These embeddings are vector representations of the text that capture semantic meaning and can be used for tasks like similarity search.
 Indexing: The MyScale index is used to store and retrieve the embeddings. This allows the application to quickly find similar documents or chunks based on their embeddings.
-Metadata Tracking: The Unstructured library tracks a variety of metadata about the elements extracted from documents. This metadata can be used to filter document elements based on criteria of interest, such as page number or source file.</h4>
+Metadata Tracking: The Unstructured library tracks a variety of metadata about the elements extracted from documents. This metadata can be used to filter document elements based on criteria of interest, such as page number or source file.
