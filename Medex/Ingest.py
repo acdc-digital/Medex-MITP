@@ -70,6 +70,13 @@ def process_files(directory):
         with open(f"{loader.file_path}.json", "w") as f:
             f.write(json.dumps(doc_embeddings, default=str))
 
+def retrieve_from_index(query):
+    # Retrieve documents from the index based on the query
+    results = index.retrieve_documents(query)
+
+    # Return the results
+    return results
+
 # Directory containing PDF files to process
 directory = "/Users/matthewsimon/Documents/GitHub/Medex-Public-MITP/Medex-Public-MITP/Medex/Source_Documents"
 # Call the process_files function to process all PDF files in the directory
