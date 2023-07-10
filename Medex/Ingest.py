@@ -64,7 +64,7 @@ def process_files(directory):
             doc_embeddings[i] = embed_model.embed_documents([d.page_content])
 
             # Add the chunk to the LlamaIndex
-            vector_store.add_documents([d])
+            index.add_documents([d])
 
         # Write the embeddings to a JSON file
         with open(f"{loader.file_path}.json", "w") as f:
