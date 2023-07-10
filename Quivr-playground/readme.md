@@ -1,3 +1,5 @@
+
+<h1>This directory was created by our code-assistant</h1>
 # Quivr Playground
 
 This directory contains the Quivr Playground code, which is a powerful tool for exploring and experimenting with Quivr functionality. 
