@@ -17,3 +17,19 @@ def retrieve_from_index(query):
 
     # Return the results
     return results
+
+def query_retriever(query):
+    # Call the retrieve_from_index function to get the results
+    results = retrieve_from_index(query)
+
+    # Print the results
+    print("Search Results:")
+    for result in results:
+        print(f"- Document: {result.metadata['source']}")
+        print(f"  Score: {result.score}")
+        print(f"  Content: {result.content}")
+        print()
+
+# Example usage
+query = "example query"
+query_retriever(query)
