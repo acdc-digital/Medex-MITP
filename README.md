@@ -8,7 +8,7 @@ Welcome to the Medex public repo, the Public-Version for Open-Source Medex updat
 
 ![Image](Medex-Comms_Flow5.png)
 
-Get started by going to: [Medex/medex-jupyter-playground.ipynb] and simply copy and paste into your notebook as needed. The Jupyter Playground will eventually become a Colab notebook, but for now, set up a new environment and following aking with the code-blocks. We'll keep the blocks in the playground as the latest stable version, as other documents may continue to get tinkered with throughout development. 
+<h3>Get started</h3> by going to: [Medex/medex-jupyter-playground.ipynb] and simply copy and paste into your notebook as needed. The Jupyter Playground will eventually become a Colab notebook, but for now, set up a new environment and following aking with the code-blocks. We'll keep the blocks in the playground as the latest stable version, as other documents may continue to get tinkered with throughout development. 
 
 <h1>Hello! Welcome to Medex Playground. A new starting point on our application journey.</h1>
 
