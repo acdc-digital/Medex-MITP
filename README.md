@@ -1,4 +1,5 @@
 # Medex-Public-MITP
+📠 Wiki: [https://github.com/acdc-digital/Medex-Public-MITP/wiki]
 
 9/7/2023: Conceptual visualization chart has been updated to reflect current direction and thought pattern. We'll also begin adding meta-data that will support the user query response. 
 
