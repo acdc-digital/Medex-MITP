@@ -60,20 +60,5 @@ I'm having some difficulty with the privacy concerns related to the sample_patie
 []: # The .env requirements and setup instructions for the virtual environment and .env keys, you can check the .env file in the <Medex> directory, and/or the my-venv instructions within the jupyter-playground. I'll piece together a more formiddable instruction set, with new files that are easier to navigate in the near future. 
 []: # 
 
-<h1>Project Document/Script Descriptions</h1>
-
-- Ingest.py
-
-The process_files function in the ingest.py script is responsible for processing all the PDF files in a given directory. It does this by creating a UnstructuredAPIFileLoader for each PDF file, which is used to load the document and split it into chunks. These chunks are then embedded using the OpenAIEmbeddings and added to the MyScale index. The embeddings are also saved to a JSON file for each document.
-
-The improvements made to this function are primarily focused on the use of partitioning bricks from the Unstructured library. Partitioning bricks are used to extract structured content from raw unstructured documents, breaking them down into elements such as Title, NarrativeText, and ListItem. This allows the application to decide what content to keep for its specific use case.
-
-Here's how the ingestion work:
-
-Document Loading: The UnstructuredAPIFileLoader is used to load the document. This loader uses the Unstructured library to extract structured content from the raw unstructured document. This is done using partitioning bricks, which break the document down into elements such as Title, NarrativeText, and ListItem.
-Document Splitting: The CharacterTextSplitter is used to split the document into chunks. This is necessary because language models like GPT-3 have a maximum token limit, and large documents need to be split into smaller chunks to be processed.
-Embedding Generation: The OpenAIEmbeddings is used to generate embeddings for each chunk. These embeddings are vector representations of the text that capture semantic meaning and can be used for tasks like similarity search.
-Indexing: The MyScale index is used to store and retrieve the embeddings. This allows the application to quickly find similar documents or chunks based on their embeddings.
-Metadata Tracking: The Unstructured library tracks a variety of metadata about the elements extracted from documents. This metadata can be used to filter document elements based on criteria of interest, such as page number or source file.
 
 
