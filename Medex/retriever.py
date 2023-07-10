@@ -1,19 +1,38 @@
 import os
 import json
-from langchain.vectorstores import MyScale, MyScaleSettings
-from langchain.embeddings.openai import OpenAIEmbeddings
+import requests
 
-# Set API keys as environment variables for security
-os.environ['OPENAI_API_KEY'] = "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"
-os.environ['MYSCALE_API_KEY'] = "6B71NumcMB7QXcguTapGBjCEWqM27p"
+# Set API key as environment variable for security
+os.environ['UNSTRUCTURED_API_KEY'] = "<YOUR_API_KEY>"
 
-# Configure MyScale settings
-config = MyScaleSettings(host='msc-3f5d0ca4.us-east-1.aws.myscale.com', port=443, username='smatty662', password='passwd_CAdIn9GSXH7GNt')
-index = MyScale(OpenAIEmbeddings(), config)
+def search_vectorstore(query):
+    # API endpoint for vectorstore similarity search
+    url = "https://api.unstructured.io/general/v0/general"
+
+    # Set the headers and parameters for the API request
+    headers = {
+        "accept": "application/json",
+        "Content-Type": "multipart/form-data",
+        "unstructured-api-key": os.environ['UNSTRUCTURED_API_KEY']
+    }
+    params = {
+        "strategy": "fast",
+        "files": "",
+        "output_format": "json"
+    }
+
+    # Make the API request with the query as the file content
+    response = requests.post(url, headers=headers, params=params, data=query)
+
+    # Parse the response JSON
+    results = json.loads(response.text)
+
+    # Return the search results
+    return results
 
 def retrieve_from_index(query):
     # Retrieve documents from the index based on the query
-    results = index.retrieve_documents(query)
+    results = search_vectorstore(query)
 
     # Return the results
     return results
@@ -22,12 +41,12 @@ def query_retriever(query):
     # Call the retrieve_from_index function to get the results
     results = retrieve_from_index(query)
 
-    # Print the results
+    # Print the results in a condensed format
     print("Search Results:")
     for result in results:
-        print(f"- Document: {result.metadata['source']}")
-        print(f"  Score: {result.score}")
-        print(f"  Content: {result.content}")
+        print(f"- Document: {result['metadata']['filename']}")
+        print(f"  Type: {result['type']}")
+        print(f"  Text: {result['text']}")
         print()
 
 # Example usage
