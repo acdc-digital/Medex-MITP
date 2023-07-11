@@ -7,12 +7,15 @@
 The concept is simple enough: Step 1: Search; User asks a question and GPT generates a list of potential queries. Search queries are executed in parallel. Step 2: Re-rank; Embeddings for each result are used to calculate semantic similarity to a generated hypothetical ideal answer to the user question. Results are ranked and filtered based on this similarity metric.
 Step 3: Answer; Given the top search results, the model generates an answer to the user’s question, including references and links.
 This hybrid approach offers relatively low latency and can be integrated into any existing search endpoint, without requiring the upkeep of a vector database.
+<h6>End Update.</h6>
 
 10/7/2023: we've added a Quivr playground. You can learn more about Quivr here: [https://github.com/StanGirard/quivr]. I find that Quivr embodies a lot of the same concepts we're trying to achieve, as such, I thought it would be a good idea to keep a simple jipyter notebook on-hand to test functionality and compare against our own. So far, we're already seeing some areas for improvement based on the specifications made available by StanGirard at the repo linked above. 
+<h6>End Update.</h6>
 
 9/7/2023: Conceptual visualization chart has been updated to reflect current direction and thought pattern. We'll also begin adding meta-data that will support the user query response. 
 
 We are just getting started uploading and creating the information to make this a coherent space. My best estimate is that we'll be much easier to comprehend by the end of the month (July, 2023). In the meantime, feel free to explore and check-out what we have to offer. Alongside a great initiative for our Medex application, within the 'medex' folder you'll find our curated collection of resources that guide our research and understanding for this project. This includes medex-specific research papers, course-offerings, reading resources, helpful links, and more that will be beneficial to anyone working on q/a applications. Alongside the development of the project, we strive to generate an open platform for not only builders, but researchers, inventors, creatives, and more who can add to the repository in a posititive way. You are a contributor simply by uploading a document that's relevant to the project. 
+<h6>End Update.</h6>
 
 Welcome to the Medex public repo, the Public-Version for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. Application overview (not complete- the below is a placeholder for now until the finished diagram is done): 
 
