@@ -2,7 +2,11 @@
 
 11/7/2023: today we're iomplementing the OpenAI-Cookbook [https://github.com/openai/openai-cookbook]. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
+![image](Medex/Assets/search_rerank_answer.png)
 
+The concept is simple enough: Step 1: Search; User asks a question and GPT generates a list of potential queries. Search queries are executed in parallel. Step 2: Re-rank; Embeddings for each result are used to calculate semantic similarity to a generated hypothetical ideal answer to the user question. Results are ranked and filtered based on this similarity metric.
+Step 3: Answer; Given the top search results, the model generates an answer to the user’s question, including references and links.
+This hybrid approach offers relatively low latency and can be integrated into any existing search endpoint, without requiring the upkeep of a vector database.
 
 10/7/2023: we've added a Quivr playground. You can learn more about Quivr here: [https://github.com/StanGirard/quivr]. I find that Quivr embodies a lot of the same concepts we're trying to achieve, as such, I thought it would be a good idea to keep a simple jipyter notebook on-hand to test functionality and compare against our own. So far, we're already seeing some areas for improvement based on the specifications made available by StanGirard at the repo linked above. 
 
