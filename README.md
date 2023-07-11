@@ -1,5 +1,9 @@
 # Medex-Public-MITP
 
+11/7/2023: today we're iomplementing the OpenAI-Cookbook [https://github.com/openai/openai-cookbook]. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
+
+
+
 10/7/2023: we've added a Quivr playground. You can learn more about Quivr here: [https://github.com/StanGirard/quivr]. I find that Quivr embodies a lot of the same concepts we're trying to achieve, as such, I thought it would be a good idea to keep a simple jipyter notebook on-hand to test functionality and compare against our own. So far, we're already seeing some areas for improvement based on the specifications made available by StanGirard at the repo linked above. 
 
 9/7/2023: Conceptual visualization chart has been updated to reflect current direction and thought pattern. We'll also begin adding meta-data that will support the user query response. 
