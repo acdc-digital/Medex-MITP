@@ -1,5 +1,7 @@
 # Medex-Public-MITP
 
+12/7/2023: I'm excited to have implemented the translation component for ingestion into a playground within Google Colab and I'm able to share that directly by publishing it to the Main page. You can tinker with your own medical questions, and our transformer will analyze pubmed for relevant articles, explode the embeddings based on the User-query, create a hypothetical answer, search pubmeds findings for relevant answers, then combine all the User information into a simple output for contextual understanding. 
+
 11/7/2023: today we're iomplementing the OpenAI-Cookbook [https://github.com/openai/openai-cookbook]. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
 ![image](Medex/Assets/search_rerank_answer.png)
