@@ -1,5 +1,14 @@
 # Medex-Public-MITP
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+
+![Unstructured.IO](https://img.shields.io/badge/Library-Unstructured.io-blue) ![LibraryName](https://img.shields.io/badge/Library-OpenAI-black) ![LibraryName](https://img.shields.io/badge/Library-Langchain-green) ![LibraryName](https://img.shields.io/badge/Library-MyScale-purple) ![LibraryName](https://img.shields.io/badge/Library-LlamaIndex-red)
+
+
+
+
+
+
 12/7/2023: I'm excited to have implemented the translation component for ingestion into a playground within Google Colab and I'm able to share that directly by publishing it to the Main page. You can tinker with your own medical questions, and our transformer will analyze pubmed for relevant articles, explode the embeddings based on the User-query, create a hypothetical answer, search pubmeds findings for relevant answers, then combine all the User information into a simple output for contextual understanding. 
 <h6>End Update.</h6>
 
