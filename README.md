@@ -11,7 +11,24 @@
   
 Medex-Public-MITP is an open-source project that leverages the power of artificial intelligence to transform the way we access and understand medical information. It's a platform where technology meets healthcare, creating a bridge between complex medical literature and the people who need this information the most.
 
+<h2>How Does It Work? 🤔</h2>
 
+At the heart of Medex is a sophisticated AI model that takes your medical queries, delves into the vast world of PubMed articles, and provides clear, insightful responses. It's like having a personal medical researcher at your fingertips, ready to dive into the depths of medical literature and bring you the answers you need.
+
+But that's not all. Medex goes a step further by generating hypothetical answers based on your query, searching PubMed for relevant findings, and combining all this information into a simple output for contextual understanding. It's a hybrid approach that offers relatively low latency and can be integrated into any existing search endpoint, without requiring the upkeep of a vector database.
+
+<h2>Why Medex? 🎯</h2>
+
+Medex is more than just a tool; it's a mission. A mission to make healthcare information more accessible, more understandable, and more user-friendly. It's about breaking down the barriers between people and the medical information they need. It's about empowering individuals to take charge of their health by providing them with the information they need to make informed decisions.
+
+<h2>Join the Mission 🤝 </h2>
+
+But Medex isn't just about technology. It's about people like you. Whether you're a coder, a scientist, or someone who believes in making healthcare information more accessible, you're welcome here. We believe in the power of community and collaboration, and we know that the best ideas come from diverse perspectives coming together to solve a common problem.
+
+So, roll up your sleeves and dive into this project. Contribute your code, share your ideas, and help us make Medex even better. Together, we can make a difference in the world of healthcare.
+
+<h2>Some cool info in our latest updates:</h2>
+<h3>The OpenAI Cookbook</h3>
 The OpenAI-Cookbook [https://github.com/openai/openai-cookbook] has been an incredible resource. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
 
@@ -22,11 +39,11 @@ Step 3: Answer; Given the top search results, the model generates an answer to t
 This hybrid approach offers relatively low latency and can be integrated into any existing search endpoint, without requiring the upkeep of a vector database.
 <h6>End Article.</h6>
 
-
-
-Welcome to the Medex public repo, the Public-Version for Open-Source Medex updates, changes, and contributions. Application specific readme notes can be found within the main directory. Application overview (not complete- the below is a placeholder for now until the finished diagram is done): 
+<h3>Visualizing Medex in Figjam</h3>
+The below is a placeholder for now until the finished diagram is done. We're slowly working through the visualization of the program in order to understand its User-Centric attributes. We want to esnure that Medex is not only the engine, but the whole vehicle that helps our Users get the information they need, when they need it. 
 
 ![Image](Medex-Comms_Flow5.png)
+<h6>End of Article.</h6>
 
 <h3>Get started</h3> 
 
