@@ -41,7 +41,7 @@ Step 3: Answer; Given the top search results, the model generates an answer to t
 This hybrid approach offers relatively low latency and can be integrated into any existing search endpoint, without requiring the upkeep of a vector database.
 <h6>End Article.</h6>
 
-<h3>Visualizing Medex in Figjam</h3>
+<h4>Visualizing Medex in Figjam</h4>
 The below is a placeholder for now until the finished diagram is done. We're slowly working through the visualization of the program in order to understand its User-Centric attributes. We want to esnure that Medex is not only the engine, but the whole vehicle that helps our Users get the information they need, when they need it. 
 
 ![Image](Medex-Comms_Flow5.png)
