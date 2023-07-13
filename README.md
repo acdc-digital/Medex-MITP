@@ -4,7 +4,7 @@
 
 ![Unstructured.IO](https://img.shields.io/badge/Library-Unstructured.io-blue) ![LibraryName](https://img.shields.io/badge/Library-OpenAI-black) ![LibraryName](https://img.shields.io/badge/Library-Langchain-green) ![LibraryName](https://img.shields.io/badge/Library-MyScale-purple) ![LibraryName](https://img.shields.io/badge/Library-LlamaIndex-red)
 
-Daily updates have moved to our Wiki: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates
+<h1>Daily updates have moved to our Wiki: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates</h1>
 
 
 
