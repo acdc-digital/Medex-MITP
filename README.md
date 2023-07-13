@@ -29,8 +29,8 @@ But Medex isn't just about technology. It's about people like you. Whether you'r
 
 So, roll up your sleeves and dive into this project. Contribute your code, share your ideas, and help us make Medex even better. Together, we can make a difference in the world of healthcare.
 
-<h2>Some cool info in our latest updates:</h2>
-<h3>The OpenAI Cookbook</h3>
+<h2>Some cool info in our latest daily-updates wiki:</h2>
+<h4>The OpenAI Cookbook</h4>
 The OpenAI-Cookbook [https://github.com/openai/openai-cookbook] has been an incredible resource. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
 
