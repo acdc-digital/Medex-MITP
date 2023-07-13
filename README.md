@@ -1,5 +1,4 @@
 # Medex-Public-MITP
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 
 ![Unstructured.IO](https://img.shields.io/badge/Library-Unstructured.io-blue) ![LibraryName](https://img.shields.io/badge/Library-OpenAI-black) ![LibraryName](https://img.shields.io/badge/Library-Langchain-green) ![LibraryName](https://img.shields.io/badge/Library-MyScale-purple) ![LibraryName](https://img.shields.io/badge/Library-LlamaIndex-red)
