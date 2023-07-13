@@ -1,5 +1,5 @@
 # Medex-Public-MITP
-<h2>Hello! Welcome to the Medex Public Playground. A new starting point on our application journey.</h2>
+<h2>Welcome to Medex-Public-MITP: Transforming Healthcare with AI 🌍🚀</h2>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 
