@@ -13,7 +13,7 @@
   
 Medex-Public-MITP is an open-source project that leverages the power of artificial intelligence to transform the way we access and understand medical information. It's a platform where technology meets healthcare, creating a bridge between complex medical literature and the people who need this information the most.
 
-<h2>How Does It Work?</h2><h3>🤔</h3>
+<h2>How Does It Work?</h2>🤔
 
 At the heart of Medex is a sophisticated AI model that takes your medical queries, delves into the vast world of PubMed articles, and provides clear, insightful responses. It's like having a personal medical researcher at your fingertips, ready to dive into the depths of medical literature and bring you the answers you need.
 
