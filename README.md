@@ -7,7 +7,7 @@
 
 <h4>Daily updates have moved to our Wiki: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates</h4>
 
-<h2>What is Medex-Public-MITP? 🧐<h2>
+<h2>What is Medex-Public-MITP? 🧐</h2>h2>
   
 Medex-Public-MITP is an open-source project that leverages the power of artificial intelligence to transform the way we access and understand medical information. It's a platform where technology meets healthcare, creating a bridge between complex medical literature and the people who need this information the most.
 
