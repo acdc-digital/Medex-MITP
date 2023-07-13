@@ -47,17 +47,14 @@ The below is a placeholder for now until the finished diagram is done. We're slo
 ![Image](Medex-Comms_Flow5.png)
 <h6>End of Article.</h6>
 
-<h3>Getting Started w/ Medex 🚀🚀🚀</h3> 
+<h2>Getting Started w/ Medex 🚀🚀🚀</h2> 
 
 To get started with Medex, simply clone this repository and follow the instructions provided in the repository's README. The project is in active development, so don't hesitate to ask questions, report issues, or suggest improvements. We're all here to learn and grow together.
 
 ```
 git clone https://github.com/acdc-digital/Medex-Public-MITP  
 ```
-by going to: ```cd /Users/filepath/Medex-Public-MITP/Medex```  and simply copy and paste into your notebook as needed. The Jupyter Playground will eventually become a Colab notebook, but for now, set up a new environment and follow along with the code-blocks. We'll keep the blocks in the playground as the latest stable version, as other documents may continue to get tinkered with throughout development and may or may-not be runnable at certain times. 
-
-
-
+```cd /Users/filepath/Medex-Public-MITP/Medex```  and simply copy and paste into your notebook as needed. The Jupyter Playground will eventually become a Colab notebook, but for now, set up a new environment and follow along with the code-blocks. We'll keep the blocks in the playground as the latest stable version, as other documents may continue to get tinkered with throughout development and may or may-not be runnable at certain times. 
 
 <h1>Final Words 🎉</h1>
 
