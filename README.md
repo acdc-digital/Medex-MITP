@@ -6,6 +6,7 @@
 
 <h4>Daily updates have moved to our Wiki: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates</h4>
 
+
 The OpenAI-Cookbook [https://github.com/openai/openai-cookbook] has been an incredible resource. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
 ![image](Medex/Assets/search_rerank_answer.png)
