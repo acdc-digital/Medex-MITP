@@ -5,7 +5,7 @@
 
 ![Unstructured.IO](https://img.shields.io/badge/Library-Unstructured.io-blue) ![LibraryName](https://img.shields.io/badge/Library-OpenAI-black) ![LibraryName](https://img.shields.io/badge/Library-Langchain-green) ![LibraryName](https://img.shields.io/badge/Library-MyScale-purple) ![LibraryName](https://img.shields.io/badge/Library-LlamaIndex-red)
 
-<h4>Daily updates have moved to our Wiki, which otherwise is being used as a coneptual journal of types: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates</h4>
+<h4>Daily updates have moved to our Wiki, which otherwise is being used as a conceptual journal of types: https://github.com/acdc-digital/Medex-Public-MITP/wiki/Daily%E2%80%90Updates</h4>
 
 <h2>What is Medex-Public-MITP? 🧐</h2>
   
