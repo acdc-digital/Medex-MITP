@@ -30,6 +30,13 @@ But Medex isn't just about technology. It's about people like you. Whether you'r
 So, roll up your sleeves and dive into this project. Contribute your code, share your ideas, and help us make Medex even better. Together, we can make a difference in the world of healthcare.
 
 <h2>Some cool info in our latest daily-updates wiki:</h2>
+
+<h4>ai-Utility and Langchain updates</h4>
+I found this cool website; [ai-utils] https://ai-utils.dev/concept/ which seems to have some integration information, and described as, "A TypeScript-first library for building AI apps, chatbots, and agents." on their Github page here: https://github.com/lgrammel/ai-utils.js. 
+
+Also, Langchain recently had a couple cool improvements to their infrastructure including improved document in some areas, added/ adding new integrations, and publishing a very helpful integrations specific page. I really like how Langchain is evolving in deliverying information to their Users. You can find the integrations page here: https://integrations.langchain.com/.
+<h6>End Article.</h6>
+
 <h4>The OpenAI Cookbook</h4>
 The OpenAI-Cookbook [https://github.com/openai/openai-cookbook] has been an incredible resource. Recently, I've discovered, "Question/ answering using an API and HyDe." Which I believe will be a sucessful priliminary implementation  of how we're going to transform our User query's. 
 
