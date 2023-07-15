@@ -29,8 +29,8 @@ But Medex isn't just about technology. It's about people like you. Whether you'r
 
 So, roll up your sleeves and dive into this project. Contribute your code, share your ideas, and help us make Medex even better. Together, we can make a difference in the world of healthcare.
 
-<h2>Some cool info in our latest daily-updates wiki:</h2>
-<h3> Tournament Champions! Milvus & Cohere 🧑🏼‍🚀 🚀 </h3>
+<h1>Daily-Updtae Highlights:</h1>
+<h2> Tournament Champions! Milvus & Cohere 🧑🏼‍🚀 🚀 </h2>
 
 After a fun day of organizing and running an experimental evaluation tournament, we've come to find Milvus VectorStore and Cohere LLM to be the tools of choice for Medex. More details on these tournaments can be found in our daily-updates Wiki, and within the individual Tournament Results, https://github.com/acdc-digital/Medex-Public-MITP/wiki/LLM-Tournament and https://github.com/acdc-digital/Medex-Public-MITP/wiki/VectorStore-Tournament. 
 
