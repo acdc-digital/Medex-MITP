@@ -30,6 +30,9 @@ But Medex isn't just about technology. It's about people like you. Whether you'r
 So, roll up your sleeves and dive into this project. Contribute your code, share your ideas, and help us make Medex even better. Together, we can make a difference in the world of healthcare.
 
 <h2>Some cool info in our latest daily-updates wiki:</h2>
+<h3> Tournament Champions! Milvus & Cohere 🧑🏼‍🚀 🚀 </h3>
+
+After a fun day of organizing and running an experimental evaluation tournament, we've come to find Milvus VectorStore and Cohere LLM to be the tools of choice for Medex. More details on these tournaments can be found in our daily-updates Wiki, and within the individual Tournament Results, https://github.com/acdc-digital/Medex-Public-MITP/wiki/LLM-Tournament and https://github.com/acdc-digital/Medex-Public-MITP/wiki/VectorStore-Tournament. 
 
 <h4>ai-Utility and Langchain updates</h4>
 I found this cool website; [ai-utils] https://ai-utils.dev/concept/ which seems to have some integration information, and described as, "A TypeScript-first library for building AI apps, chatbots, and agents." on their Github page here: https://github.com/lgrammel/ai-utils.js. 
