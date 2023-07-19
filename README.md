@@ -1,5 +1,6 @@
 # MITP: Medical Information Training & Personalization
 <h2>Welcome to Medex-Public-MITP: Transforming Healthcare with AI 🌍🚀</h2>
+<h4>Welcome to the LangSmith Team. We have applied for the beta and we hope you enjoy the repo. I will be pushing some of the latest notebooks today (July 19/23), so the application files will be updated with the latest commit. In the meantime, we've curated a vast number of resources and other techniques in our main Medex directory, and within our wiki.</h4>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 
