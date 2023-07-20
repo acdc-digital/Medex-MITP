@@ -1,4 +1,4 @@
-<h1>Welcome to Medex-Public-MITP: Transforming Healthcare with AI 🌍 </h1>
+<h1>Welcome to Medex-Public-MITP: Transforming Healthcare with AI  🌍 </h1>
 
 ![logo1](https://github.com/acdc-digital/Medex-Public-MITP/blob/main/Medex/Assets/Group%203.png)<h2>MITP: Medical Information Training & Personalization</h2>
 
