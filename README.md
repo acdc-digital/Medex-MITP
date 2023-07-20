@@ -2,6 +2,11 @@
 <h2>Welcome to Medex-Public-MITP: Transforming Healthcare with AI 🌍🚀</h2>
 <h4>Welcome to the LangSmith Team. We have applied for the beta and we hope you enjoy the repo. I will be pushing some of the latest notebooks today (July 19/23), so the application files will be updated with the latest commit. In the meantime, we've curated a vast number of resources and other techniques in our main Medex directory, and within our wiki.</h4>
 
+Today, despite decades of developments in medicine and the growing interest in precision healthcare, 
+vast majority of diagnoses happen once patients begin to show noticeable signs of illness. Early 
+indication and detection of diseases, however, can provide patients and carers with the chance of early 
+intervention, better disease management, and efcient allocation of healthcare resources.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 
 ![Unstructured.IO](https://img.shields.io/badge/Library-Unstructured.io-blue) ![LibraryName](https://img.shields.io/badge/Library-OpenAI-black) ![LibraryName](https://img.shields.io/badge/Library-Langchain-green) ![LibraryName](https://img.shields.io/badge/Library-MyScale-purple) ![LibraryName](https://img.shields.io/badge/Library-LlamaIndex-red)
