@@ -2,6 +2,8 @@
 
 ![logo1](https://github.com/acdc-digital/Medex-Public-MITP/blob/main/Medex/Assets/Group%203.png)<h2>MITP: Medical Information Training & Personalization</h2>
 
+Vector-db Encryptedw/: [CloakedAI](https://ironcorelabs.com/products/cloaked-ai/) for additional privacy protection. 
+
 Today, despite decades of development in medicine and the growing interest in precision healthcare, 
 the vast majority of diagnoses happen once patients begin to show noticeable signs of illness. Early 
 indication and detection of diseases, however, can provide patients and carers with the chance of early 
