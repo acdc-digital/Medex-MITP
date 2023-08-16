@@ -6,7 +6,7 @@
 
 [![Langchain](https://img.shields.io/badge/powered%20by-Langchain-GreenYellow)](https://github.com/langchain-ai/langchain) [![Unstructured.IO](https://img.shields.io/badge/Unstructured.io-blue)](https://github.com/Unstructured-IO/unstructured) [![Deeplake](https://img.shields.io/badge/Deep%20Lake%20-ff5a1f.svg)](https://github.com/activeloopai/deeplake) [![Cloaked](https://img.shields.io/badge/CloakedAI-maroon)](https://ironcorelabs.com/products/cloaked-ai/)
 
-* Medex-Public-MITP: Transforming Healthcare with AI
+* Medex-MITP: Empowering patients with artificial intellegence. 
 * MITP: Stands for Medical Information Training & Personalization.
 * Vector-db Encrypted: Uses CloakedAI for additional privacy protection.
 * Objective: 
